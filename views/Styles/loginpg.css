@@ -1,0 +1,35 @@
+body{
+    background:url(../Imgs/bkk3.jpeg),#FFFFFF;
+    font-style:Verdana;
+}
+div{
+    font-size:40px;
+    padding:350px 500px;
+}
+form button{
+    background-color:rgb(50,205,50);
+    text-align:center;
+    font-size:15px;
+    margin:20px 280px;
+    padding:10px 30px;
+    border-radius:15px;
+}
+form button.hover{
+    background-color:rgb(50,205,50,0.4);
+}
+input{
+    background-color:#D3D3D3;
+    border-radius:8px;
+    height:50px;
+    width:300px;
+}
+#new{
+    font-size:30px;
+    padding:0px 100px;
+}
+input.active{
+    background-color:#DCDCDC	;
+}
+#M{
+    margin:0px 46px 0px 0px;
+}

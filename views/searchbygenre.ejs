@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SEARCH BOOK BY GENRE</title>
+	<link rel="stylesheet" type="text/css" href="Styles/homepg.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<button onclick="window.location.href='searchbygenre';">Search book by genre</button>
+		<button onclick="window.location.href='searchbyauthor';" >Search book by author</button>
+		<button onclick="window.location.href='searchbyname';">Search book by name</button>
+		<a href="#"><i class="material-icons" style="font-size:56px">shopping_cart</i></a>
+	</nav>
+	<form action="/searchbygenre" method="POST">
+		<label for="genre"><b>Genre:</b></label>
+		<input type="text" placeholder="Enter Genre" name="Category" required><br>
+		<button type="submit">Search</button>
+	</form>
+</body>
+</html>

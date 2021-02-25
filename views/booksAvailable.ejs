@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Find your book</title>
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="Styles/availbooks.css">
+</head>
+<body>
+  <%if(me.length==0){%>
+    <h3>Books not found</p>
+  <%}else{%>
+    <h3>Related BOOKS</h3>
+    <%for(var j=0;j<me.length;j++){%>
+   <div class="card">
+      <p>Title    : <%=me[j]["title"]%></p>
+      <p>Author   : <%=me[j]["author"]%></p>
+      <p>Category : <%=me[j]["Category"]%></p>
+      <p>publisher:<%=me[j]["publisher"]%></p>
+      <p>price    :<%=me[j]["price"]%></p>
+  </div>
+  <br><br>
+  <%}%>
+  <%}%>
+</body>
+</html>
